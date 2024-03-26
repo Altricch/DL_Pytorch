@@ -45,6 +45,7 @@ class CNN(nn.Module):
         
 # ------------ Set Device ------------- #
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print("DEVICE", device)
 
 
 # ------------ Hyperparameters ------------- #
